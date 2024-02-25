@@ -118,6 +118,7 @@
   /* MOBILE NAVIGATION*/
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -266,24 +267,24 @@
     transform: translateY(2.4rem);
   }
 
-  .testimonials{
+  .testimonials {
     grid-template-columns: 1fr;
   }
 
-  .gallery{
-    grid-template-columns: repeat(4,1fr);
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
   }
 
-  .cta{
+  .cta {
     grid-template-columns: 1fr;
   }
 
-  .cta-text-box{
+  .cta-text-box {
     padding: 3.2rem;
   }
 
-  .cta-img-box{
+  .cta-img-box {
     height: 32rem;
     grid-row: 1;
   }

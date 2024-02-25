@@ -7,6 +7,9 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* doesnt work in safari and edge */
+  /* scroll-behavior: smooth; */
 }
 
 body {
